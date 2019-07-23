@@ -63,7 +63,7 @@ export const NewPlaylist = styled.button`
     }
 
     img {
-        margin: 5px 10px 5px 20px;
+        margin: 15px 10px 15px 20px;
     }
 `;
 
