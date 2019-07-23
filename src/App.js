@@ -2,7 +2,8 @@ import React, {Fragment} from 'react';
 import GlobalStyle from './styles/global'
 import Sidebar from './components/sidebar'
 import Player from './components/player'
-import { Wrapper, Container } from './styles/components'
+import Header from './components/header'
+import { Wrapper, Container, Content } from './styles/components'
 
 const App = () => (
     <Fragment>
@@ -10,6 +11,9 @@ const App = () => (
         <Wrapper>
             <Container>
                 <Sidebar />
+                <Content>
+                    <Header />
+                </Content>
             </Container>
             <Player />
         </Wrapper>
