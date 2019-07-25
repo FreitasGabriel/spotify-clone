@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-json-server": "json-server server.json -p 3001 -w -d 500",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
