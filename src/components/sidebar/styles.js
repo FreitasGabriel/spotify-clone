@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.aside`
 
-    height: 100%;
+   
     width: 200px;
     background: #121212;
     color: #b3b3b3;
@@ -19,6 +19,7 @@ export const Container = styled.aside`
 export const Nav = styled.ul`
     list-style: none;
     margin-top: 25px;
+
 
     &:first-child {
         margin: 0px;
@@ -57,13 +58,17 @@ export const NewPlaylist = styled.button`
     display: flex;
     align-items: center;
     padding: 15px, 25px;
+    width: 145px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 80px;
 
     &:hover {
         color: #fff;
     }
 
     img {
-        margin: 15px 10px 15px 20px;
+        margin: 15px 10px 15px 0px;
     }
 `;
 

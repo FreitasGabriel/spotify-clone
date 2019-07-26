@@ -55,11 +55,12 @@ const Sidebar = () => (
                     <a href="">Melhores do Rock</a>
                 </li>
             </Nav>
-        </div>
-        <NewPlaylist>
+            <NewPlaylist>
             <img src={AddPlaylistIcon} alt="Adicionar playlist"/>
             Nova playlist
-        </NewPlaylist>
+            </NewPlaylist>
+        </div>
+        
         
     </Container>
 );

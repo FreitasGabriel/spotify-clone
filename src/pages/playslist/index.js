@@ -45,6 +45,25 @@ const Playlist = () => (
                     <td>Linkin Park</td>
                     <td>Hybrid Theory</td>
                     <td>3:26</td>
+                </tr><tr>
+                    <td><img src={PlusIcon} alt="Adicionar"/></td>
+                    <td>Papercut</td>
+                    <td>Linkin Park</td>
+                    <td>Hybrid Theory</td>
+                    <td>3:26</td>
+                </tr><tr>
+                    <td><img src={PlusIcon} alt="Adicionar"/></td>
+                    <td>Papercut</td>
+                    <td>Linkin Park</td>
+                    <td>Hybrid Theory</td>
+                    <td>3:26</td>
+                </tr>
+                <tr>
+                    <td><img src={PlusIcon} alt="Adicionar"/></td>
+                    <td>Papercut</td>
+                    <td>Linkin Park</td>
+                    <td>Hybrid Theory</td>
+                    <td>3:26</td>
                 </tr>
                 <tr>
                     <td><img src={PlusIcon} alt="Adicionar"/></td>

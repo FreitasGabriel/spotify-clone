@@ -3,11 +3,14 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
     height: 72px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #282828;
     padding: 12px;
+    position: fixed;
+    bottom: 0;
 `;
 
 export const Current = styled.div`
