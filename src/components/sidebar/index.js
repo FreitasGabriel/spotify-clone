@@ -13,7 +13,6 @@ class Sidebar extends Component {
     componentDidMount(){
         this.props.getPlaylistsRequest();
 
-        this.props.getPlaylistsSuccess();
     }
     render(){
         return(
