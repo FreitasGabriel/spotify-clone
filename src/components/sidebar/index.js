@@ -21,7 +21,6 @@ class Sidebar extends Component {
         }).isRequired,
     };
 
-    
 
     componentDidMount(){
         this.props.getPlaylistsRequest();
