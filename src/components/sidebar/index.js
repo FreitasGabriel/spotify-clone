@@ -32,10 +32,10 @@ class Sidebar extends Component {
                 <div>
                     <Nav main>
                         <li>
-                            <a href="">Navegar</a>
+                            <Link to="/">Navegar</Link>
                         </li>
                         <li>
-                            <a href="">Rádio</a>
+                            <Link to="/">Rádio</Link>
                         </li>
                     </Nav>
                     <Nav>
