@@ -22,8 +22,8 @@ class Playlist extends Component {
         playlistDetails: PropTypes.shape({
             data: PropTypes.shape({
                 thumbnail: PropTypes.string,
-                title: PropTypes.title,
-                description: PropTypes.description,
+                title: PropTypes.string,
+                description: PropTypes.string,
                 songs: PropTypes.arrayOf(PropTypes.shape({
                     id: PropTypes.number,
                     title: PropTypes.string,

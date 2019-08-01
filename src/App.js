@@ -9,6 +9,7 @@ import Sidebar from './components/sidebar'
 import Player from './components/player'
 import Header from './components/header'
 import { Wrapper, Container, Content } from './styles/components'
+import ErrorBox from './components/errorBox'
 
 import Routes from './routes'
 import store from './store'
@@ -23,6 +24,7 @@ const App = () => (
                 <Container>
                     <Sidebar />
                     <Content>
+                        <ErrorBox />
                         <Header />
                         <Routes />
                     </Content>
