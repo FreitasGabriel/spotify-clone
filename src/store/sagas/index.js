@@ -1,4 +1,4 @@
-import { all, takeLatest, take } from 'redux-saga/effects'
+import { all, takeLatest } from 'redux-saga/effects'
 
 import { Types as PlaylistsTypes } from '../ducks/playlists'
 import { Types as PlaylistDetailsTypes } from '../ducks/playlistDetails'
